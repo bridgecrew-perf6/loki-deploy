@@ -1,0 +1,13 @@
+server:
+  image:
+    repository: bitnami/prometheus
+    tag: 2.33.4
+    pullPolicy: IfNotPresent
+alertmanager:
+  enabled: false
+kubeStateMetrics:
+  enabled: true
+nodeExporter:
+  enabled: false
+pushgateway:
+  enabled: false
