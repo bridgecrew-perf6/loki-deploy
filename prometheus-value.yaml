@@ -1,7 +1,7 @@
 server:
   image:
-    repository: bitnami/prometheus
-    tag: 2.33.4
+    repository: prom/prometheus
+    tag: v2.33.5
     pullPolicy: IfNotPresent
 alertmanager:
   enabled: false

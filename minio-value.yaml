@@ -6,7 +6,7 @@ persistence:
   enabled: true
   size: 10Gi
   existingClaim: "minio-pvc"
-  storageClass: "local-storage"
+  storageClass: "local-path"
   accessMode: ReadWriteOnce
 resources:
   requests:
