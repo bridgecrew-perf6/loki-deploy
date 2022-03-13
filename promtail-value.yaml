@@ -6,6 +6,9 @@ config:
     client:
       url: http://loki-loki-distributed-gateway/loki/api/v1/push
       tenant_id: test
+      basic_auth:
+        username: test-user
+        password: password
     positions:
       filename: /run/promtail/positions.yaml
     scrape_configs:

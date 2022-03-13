@@ -108,3 +108,9 @@ persistence:
   enabled: true
   size: 10Gi
   storageClass: local-path
+gateway:
+  enabled: true
+  basicAuth:
+    enabled: true
+    username: test-user
+    password: password
